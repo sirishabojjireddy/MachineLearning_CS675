@@ -7,3 +7,19 @@ Python program that implements the Naive Bayes classifier, take as input a datas
 dataset which are feature vectors whose labels are not given for training, initializing the mean to zero to 0.1
 
 Assignment2:
+
+Assignment3:
+
+Assignment4:
+
+Assignment5:
+
+Assignment6:
+
+Assignment7:
+
+Assignment8:
+
+Assignment9:
+
+Assignment10:
