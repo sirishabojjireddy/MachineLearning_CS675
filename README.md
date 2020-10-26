@@ -28,7 +28,7 @@ Assignment8:
 Write a Python program to output a k-means clustering, similar structure to the nearest means program. The input to your program is a dataset and number of cluster k. The output is in the same format of label files.
 
 Assignment9:
-Experiment with random hyperplanes for classification. Take a dataset as input and produce new features. The input is in the same format as for previous assignments. Predict using linear SVM and k values of 10, 100, 1000 and 10000, compare error liblinear on original data for each k. Crossvalidate on the first splot of each of six datasets, on both original and new data represenation for all values of k. Create features and run linearSVC using scikit learn on new training data and predict on new test data, set max_iter parameter to 10000 for deep search.
+Experiment with random hyperplanes for classification. Take a dataset as input and produce new features. The input is in the same format as for previous assignments. Predict using linear SVM and k values of 10, 100, 1000 and 10000, compare error liblinear on original data for each k. Crossvalidate on the first split of each of six datasets, on both original and new data represenation for all values of k. Create features and run linearSVC using scikit learn on new training data and predict on new test data, set max_iter parameter to 10000 for deep search.
 
 Extracredit:
 Predict the  final week's sales from the previous values for each item in the weekly sales transaction dataset.
