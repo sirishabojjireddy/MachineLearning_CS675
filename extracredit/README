@@ -1,0 +1,5 @@
+The weekly sales transaction dataset (posted here https://web.njit.edu/~usman/courses/cs675_fall19/Sales_Transactions_Dataset_Weekly.csv) 
+shows weekly sales of over 800 items across a year. 
+
+1) Predicted the final week's sales from the previous values for each item in the weekly sales transaction dataset with last week 51 as test data and prior weeks as training ignoring the last column.
+2) Reported the mean square error to about 17.5 with ridge regression applied to LSTM encoding of the data.
