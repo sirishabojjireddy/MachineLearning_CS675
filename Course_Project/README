@@ -1,0 +1,9 @@
+This is a simulated dataset of single nucleotide polymorphism (SNP) genotype data containing 29623 SNPs (total features). Amongst all SNPs are 15 causal ones which means they and neighboring ones discriminate between case and controls while remainder are noise. In the training are 4000 cases and 4000 controls.
+
+Memory issues:
+One challenge with this project is the size of the data and loading it into RAM. Floats and numbers take up more than 4 bytes in Python because everything is really an object that contain other information besides the value of the number. To reduce the space we can use the array class of Python.
+
+• Predicted the labels of 2000 test data whose true labels are unknown.
+• Used numpy arrays for efficient storage.
+• Used cross validation to evaluate the model and pearson correlation for parameter estimation.
+• Best accuracy of 65% was achieved by using Support Vector Machine (SVM) model and Principal Component Analysis (PCA) for Dimensionality Reduction.
