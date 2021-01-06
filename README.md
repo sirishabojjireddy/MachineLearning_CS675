@@ -25,7 +25,7 @@ Assignment7:
 Python program to perform bagging on the decision stump from assignment 6. The input should be the data file and labels as in previous assignments. The output is the prediction of test datapoints. Create a bootstrapped dataset and then run your decision stump on it and obtain predictions labels, repeat this a 100 times and output the majority vote of the predictions. 
 
 Assignment8:
-Write a Python program to output a k-means clustering, similar structure to the nearest means program. The input to your program is a dataset and number of cluster k. The output is in the same format of label files.
+Python program to output a k-means clustering, similar structure to the nearest means program. The input to your program is a dataset and number of cluster k. The output is in the same format of label files.
 
 Assignment9:
 Experiment with random hyperplanes for classification. Take a dataset as input and produce new features. The input is in the same format as for previous assignments. Predict using linear SVM and k values of 10, 100, 1000 and 10000, compare error liblinear on original data for each k. Crossvalidate on the first split of each of six datasets, on both original and new data represenation for all values of k. Create features and run linearSVC using scikit learn on new training data and predict on new test data, set max_iter parameter to 10000 for deep search.
